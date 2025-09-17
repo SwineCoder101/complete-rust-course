@@ -10,8 +10,10 @@ fn main(){
     //     println!("False");
     // }
 
+    
     'counter: loop {
         println!("Count: {}", num);
+        
     }
 
     // let mut num = 0;
