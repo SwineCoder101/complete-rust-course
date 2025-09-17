@@ -2,7 +2,7 @@ fn main() {
     // let x: i8 = 10;
     // println!("{}", x);
 
-    // // let _y: u8 = 10;
+    // let _y: u8 = 10;
 
     // let decimal = 02_55;
     // let hex = 0xff;
@@ -17,15 +17,15 @@ fn main() {
     // let byte = b'A';
     // println!("{}",byte);
 
-    // let x = 2.0; //f64 default
-    // let y: f32 = 1.0;
+    let x = 2.0; //f64 default
+    let y: f32 = 1.0;
 
-    // let t = true;
-    // let f:  bool = false;
+    let t = true;
+    let f:  bool = false;
 
-    // let c = 'c';
+    let c = 'c';
 
-    // println!("{}",c);
+    println!("{}",c);
 
     // + - * / %
 
@@ -36,7 +36,6 @@ fn main() {
     // println!("{}",remainder)
 
     // let tup = (500, "hi", true);
-    // // println!("{}", tup.2);
     // let (x, y, z) = tup;
 
     // println!("{}", x);
@@ -60,20 +59,31 @@ fn main() {
     // println!("{:?}", nums);
 
     // let mut vec = Vec::new(); //vec!
-    // vec.push("Test");
-    // vec.push("String");
+    // vec.push("a");
+    // vec.push("b");
+    // vec.push("c");
+    // vec.push("d");
+    // vec.pop_if(|index| index.to_ascii_lowercase().starts_with('t'));
     // println!("{:?}", vec);
 
     // vec.reverse();
     // println!("{:?}", vec);
 
+    // println!("{}", vec.concat());
+
+    // vec.reverse();
+    // println!("{:?}", vec);
+
+
+
     // let mut vect = Vec::<i32>::with_capacity(2);
     // println!("{}", vect.capacity());
 
-    // let v: Vec<i32> = (0..5).collect();
+    // let mut v: Vec<i32> = (0..5).collect();
     // println!("{:?}", v);
 
-    // let sv: &[i32] = &v[2..4];
+    // let sv = &v[2..4];
+
     // println!("{:?}", sv);
 
     // let name = String::from("Tyler");
@@ -89,13 +99,13 @@ fn main() {
     // let str2 = str1.to_string();
     // let str3 = &str2;
 
-    // println!("{}", str1);
-    // println!("{}", str2);
-    // println!("{}", str3);
+    // println!("{}", str1.ends_with("o"));
+    // println!("{}", str2.to_ascii_lowercase());
+    // println!("{}", str3.to_ascii_uppercase());
 
     // // compare string == != (does not equal)
     // println!("{}", "ONE".to_lowercase() == "one");
 
-    // let rust = "\x52\x75\x73\x74";
-    // println!("{}", rust);
+    let rust = "\x52\x75\x73\x74";
+    println!("{}", rust);
 }

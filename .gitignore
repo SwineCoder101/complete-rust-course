@@ -1,1 +1,20 @@
-/target
+# /target
+# */target
+# */target/.*
+# .*/.*/target
+# */*/target/*
+# */*/target/.*
+# /.idea
+# chat/target
+
+
+# Rust build
+target/
+**/target/
+
+# IntelliJ / CLion
+.idea/
+*.iml
+
+# wasm project (optional, but usually useful)
+wasm-game-of-life/www/node_modules/
